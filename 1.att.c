@@ -13,10 +13,10 @@ int main()
     setlocale(LC_ALL, "portuguse");
     int i;
 
-    char nome[2][200];
-    int idade[2];
-    float peso[2];
-    float altura[2];
+    char nome[5][200];
+    int idade[5];
+    float peso[5];
+    float altura[5];
 
     float maisAlto = 0;
     float maisBaixo = 999999;
@@ -38,9 +38,9 @@ int main()
 
     // usuario
 
-    for (i = 0; i < 2; i++)
+    for (i = 0; i < 5; i++)
     {
-        printf("Dados da %dº pessoa: \n", i + 1);
+        printf("Dados da %dÂº pessoa: \n", i + 1);
         printf("\n");
 
         printf("Informe o seu nome: ");
@@ -104,9 +104,9 @@ int main()
     }
     // mostrar
 
-    for (i = 0; i < 2; i++)
+    for (i = 0; i < 5; i++)
     {
-        printf("Dados da %dº pessoa: \n", i + 1);
+        printf("Dados da %dÂº pessoa: \n", i + 1);
         printf("\n");
         printf("Nome: %s\n", nome[i]);
         printf("Idade: %d\n", idade[i]);
