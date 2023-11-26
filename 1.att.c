@@ -62,11 +62,11 @@ int main()
         maisAlto = maisAlto > altura[i] ? maisAlto : altura[i];
         maisBaixo = maisBaixo < altura[i] ? maisBaixo : altura[i];
 
-        if (maisAlto = altura[i])
+        if (maisAlto == altura[i])
         {
             posicaoAlturaMaior = i;
         }
-        else
+        if(maisBaixo == altura[i])
         {
             posicaoAlturaMenor = i;
         }
@@ -74,11 +74,11 @@ int main()
         maiorpeso = maiorpeso > peso[i] ? maiorpeso : peso[i];
         menorpeso = menorpeso < peso[i] ? menorpeso : peso[i];
 
-        if (maiorpeso = peso[i])
+        if (maiorpeso == peso[i])
         {
             posicaoPesoMaior = i;
         }
-        else
+        if(menorpeso == peso[i])
         {
             posicaoPesoMenor = i;
         }
@@ -86,11 +86,11 @@ int main()
         maisIdade = maisIdade > idade[i] ? maisIdade : idade[i];
         menosIdade = menosIdade < idade[i] ? menosIdade : idade[i];
 
-        if (maisIdade = idade[i])
+        if (maisIdade == idade[i])
         {
             posicaoIdadeMaior = i;
         }
-        else
+        if(menosIdade == idade[i])
         {
             posicaoIdadeMenor = i;
         }
